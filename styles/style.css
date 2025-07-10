@@ -22,6 +22,7 @@
 #for_center{
     text-align: center;
     margin-top: auto;
+    justify-content: center;
 }
 
 #for_background_img{
@@ -30,4 +31,36 @@
 
 .for_buttom{
     margin-bottom: 200px;
+}
+
+.for_text_font{
+    color: #252432;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    gap: auto;
+}
+
+/* Part 2 :  */
+
+
+.for_text{
+    color: #252432;
+}
+.for_flex{
+    display: flex;
+    justify-content: center;
+    /* align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px; */
+    margin: 50px;
+    gap: 200px;
+
+}
+
+.for_picture_border_radious{
+    border-radius: 40px;
+    width: 403px;
+    height: 328px;
 }
