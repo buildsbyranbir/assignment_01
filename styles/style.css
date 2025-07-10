@@ -84,3 +84,28 @@
     margin-right: 100px;
     padding-top: 20px;
 }
+
+/* part 04 */
+.review_section{
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    justify-content: center;
+    gap: 30px;
+    padding-left: 80px;
+    padding-right: 80px;
+    background-color: white;
+}
+.for_card_bg{
+    background-color: #F2EDED;
+    border-radius: 5px;
+    text-align: left;
+    margin: 10px;
+    padding: 20px;
+}
+.for_review_section_pic{
+    border-radius: 100px;
+}
+.for_date_color{
+    color: lab(37.86% 2.02 0.72);
+}
