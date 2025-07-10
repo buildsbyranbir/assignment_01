@@ -15,11 +15,11 @@
     margin-right: 100px;
 }
 
-#for_logo_color{
+.for_text_color{
     color: #4e47ff;
 }
 
-#for_center{
+.for_center{
     text-align: center;
     margin-top: auto;
     justify-content: center;
@@ -35,7 +35,7 @@
 
 .for_text_font{
     color: #252432;
-    margin-top: 100px;
+    margin-top: ;
     margin-bottom: 20px;
     gap: auto;
 }
@@ -49,13 +49,12 @@
 .for_flex{
     display: flex;
     justify-content: center;
-    /* align-items: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: 20px;
-    margin-right: 20px; */
-    margin: 50px;
+    align-items: center;
+    margin: 100px;
     gap: 200px;
+    padding-left: 80px;
+    padding-right: 80px;
+    background-color: white;
 
 }
 
@@ -63,4 +62,25 @@
     border-radius: 40px;
     width: 403px;
     height: 328px;
+}
+
+/* part 3 */
+
+.productive_users_part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    gap: 200px;
+}
+.for_bg_color{
+    text-align: center;
+    align-items: center;
+    background-color: #f2f1ff;
+    padding-left: 80px;
+    padding-right: 80px;
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 20px;
 }
