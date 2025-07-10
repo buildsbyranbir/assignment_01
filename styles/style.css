@@ -1,0 +1,33 @@
+/* part 01 :  */
+.for_button{
+    background-color: #4E47FF;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#for_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#for_logo_color{
+    color: #4e47ff;
+}
+
+#for_center{
+    text-align: center;
+    margin-top: auto;
+}
+
+#for_background_img{
+    background-image: url(../B12A01-landing-launchpad/Assets/Hero-bg.png);
+}
+
+.for_buttom{
+    margin-bottom: 200px;
+}
