@@ -1,13 +1,17 @@
-/* part 01 :  */
+/* part 01 */
 .for_button{
     background-color: #4E47FF;
     color: white;
     border: none;
-    padding: 5px 10px;
+    padding: 10px 10px;
     border-radius: 5px;
     cursor: pointer;
 }
-#for_header{
+.for_button:hover {
+    background-color: rgb(244, 191, 2);
+    color: black;
+ }
+#for_header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -15,38 +19,40 @@
     margin-right: 100px;
 }
 
-.for_text_color{
+.for_text_color {
     color: #4e47ff;
 }
 
-.for_center{
+.for_center {
     text-align: center;
     margin-top: auto;
     justify-content: center;
 }
 
-#for_background_img{
+#for_background_img {
     background-image: url(../B12A01-landing-launchpad/Assets/Hero-bg.png);
+    margin-top: 50px;
 }
 
-.for_buttom{
+.for_buttom {
     margin-bottom: 200px;
 }
 
-.for_text_font{
+.for_text_font {
     color: #252432;
     margin-top: ;
     margin-bottom: 20px;
     gap: auto;
 }
 
-/* Part 2 :  */
+/* Part 02  */
 
 
-.for_text{
+.for_text {
     color: #252432;
 }
-.for_flex{
+
+.for_flex {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -58,35 +64,38 @@
 
 }
 
-.for_picture_border_radious{
+.for_picture_border_radious {
     border-radius: 40px;
     width: 403px;
     height: 328px;
 }
 
-/* part 3 */
+/* part 03 */
 
-.productive_users_part{
+.productive_users_part {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 100px;
     gap: 200px;
 }
-.for_bg_color{
+.for_size{
+    font-size: 50px;
+}
+.for_bg_color {
     text-align: center;
     align-items: center;
     background-color: #f2f1ff;
-    padding-left: 80px;
-    padding-right: 80px;
     border-radius: 10px;
     margin-left: 100px;
     margin-right: 100px;
-    padding-top: 20px;
+    margin-bottom: 50px;
+    padding-top: 50px;
+    padding-bottom: 2px;
 }
 
 /* part 04 */
-.review_section{
+.review_section {
     display: flex;
     margin-left: 100px;
     margin-right: 100px;
@@ -96,58 +105,126 @@
     padding-right: 80px;
     background-color: white;
 }
-.for_card_bg{
+
+.for_card_bg {
     background-color: #F2EDED;
     border-radius: 5px;
     text-align: left;
     margin: 10px;
     padding: 20px;
 }
-.for_review_section_pic{
+
+.for_review_section_pic {
     border-radius: 100px;
 }
-.for_date_color{
+
+.for_date_color {
     color: lab(37.86% 2.02 0.72);
 }
 
-/* part 5 */
-.for_focus_bg{
+/* part 05 */
+.for_focus_bg {
     background-color: #f3ecec;
     margin-left: 100px;
     margin-right: 100px;
+    padding-top: 40px ;
+    padding-top: 50px;
+    margin-top: 50px;
 }
 
-/* Part 6 */
-.for_form_section{
+/* Part 06 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f5f8ff;
+}
+
+.for_form {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 100px;
-    gap: 200px;
-    padding-left: 80px;
-    padding-right: 80px;
-    background-color: white;
-
+    height: 100vh;
+    padding: 20px;
 }
 
-/* part 7 */
+.for_left {
+    flex: 1;
+    padding: 40px;
+}
+
+.for_left h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #000;
+}
+
+.right {
+    flex: 1;
+    padding: 40px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+input,
+textarea {
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+button {
+    padding: 14px;
+    background-color: #4f46e5;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #3730a3;
+}
+
+
+/* part 07 */
 .nav_links a {
-    text-decoration:none;
+    text-decoration: none;
     color: #8987A1;
     font-weight: 500;
     font-size: 14;
     margin: 20px;
 
 }
-.for_footer_bg{
+
+.for_footer_bg {
     background-color: hsl(0, 100%, 99%);
     padding-bottom: 50px;
     padding-top: 50px;
-     padding-left: 80px;
+    padding-left: 80px;
     padding-right: 80px;
-     margin-left: 100px;
-     margin-right: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-bottom: 50px;
 }
-#for_text_color_footer{
+
+#for_text_color_footer {
     color: #8987A1;
 }
