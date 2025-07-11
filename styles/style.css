@@ -109,3 +109,45 @@
 .for_date_color{
     color: lab(37.86% 2.02 0.72);
 }
+
+/* part 5 */
+.for_focus_bg{
+    background-color: #f3ecec;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+/* Part 6 */
+.for_form_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+    gap: 200px;
+    padding-left: 80px;
+    padding-right: 80px;
+    background-color: white;
+
+}
+
+/* part 7 */
+.nav_links a {
+    text-decoration:none;
+    color: #8987A1;
+    font-weight: 500;
+    font-size: 14;
+    margin: 20px;
+
+}
+.for_footer_bg{
+    background-color: hsl(0, 100%, 99%);
+    padding-bottom: 50px;
+    padding-top: 50px;
+     padding-left: 80px;
+    padding-right: 80px;
+     margin-left: 100px;
+     margin-right: 100px;
+}
+#for_text_color_footer{
+    color: #8987A1;
+}
